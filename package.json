@@ -6,10 +6,20 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/OlgaMelman/Node2"
-    },
+  },
   "scripts": {
+    "eslint": "eslint",
+    "prettier": "prettier",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.53.0"
+  },
+  "dependencies": {
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "prettier": "^3.0.3"
+  }
 }
